@@ -3,6 +3,7 @@ import Home from '../views/Home.vue';
 import Login from '../views/Login.vue';
 import Register from '../views/Register.vue';
 import SuperadminHome from '../views/Superadmin-Home.vue'; // Correctly import the Superadmin-Home component
+import DataTable from '../views/DataTable.vue';
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: '/leader-home',
     name: 'Leader-Home',
     component: SuperadminHome, // Use the imported component
+  },
+  {
+    path: '/testing-ground',
+    name: 'Leader-Home',
+    component: DataTable, // Use the imported component
   },
   {
     path: '/login',
